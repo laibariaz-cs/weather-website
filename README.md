@@ -29,14 +29,6 @@ This project provides real-time weather updates for any city using a weather API
 
 ---
 
-## 📸 Project Preview
-
-<p align="center">
-  <img src="./screenshot.png" alt="Weather App Screenshot" width="85%">
-</p>
-
----
-
 ## 🚀 How to Use
 1. Open the live link above  
 2. Enter any city name in search bar  
