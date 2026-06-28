@@ -1,18 +1,48 @@
-# React + Vite
+# 🌦️ Weather Forecast Web Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive Weather Forecast Web Application built using HTML, CSS, and JavaScript.  
+This project provides real-time weather updates for any city using a weather API with a clean and simple user interface.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔗 Live Demo
+👉 https://weather-website-78052.web.app/
 
-## React Compiler
+---
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+## ✨ Features
+- 🔍 Search weather by city name
+- 🌡️ Real-time temperature updates
+- 🌤️ Weather conditions (Clear, Clouds, Rain, etc.)
+- 📱 Fully responsive design (Mobile, Tablet, Desktop)
+- ⚡ Fast and lightweight performance
+- 🎯 Simple and user-friendly UI
 
-Note: This will impact Vite dev & build performances.
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
+- HTML5
+- CSS3
+- JavaScript (Vanilla JS)
+- Weather API
+- Firebase Hosting
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📸 Project Preview
+
+<p align="center">
+  <img src="./screenshot.png" alt="Weather App Screenshot" width="85%">
+</p>
+
+---
+
+## 🚀 How to Use
+1. Open the live link above  
+2. Enter any city name in search bar  
+3. Get instant weather information  
+
+---
+
+## 👨‍💻 Developer
+**Laiba Riaz**
