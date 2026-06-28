@@ -1,0 +1,427 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #1a1a1a;
+  overflow-x: hidden;
+}
+
+.bg {
+  background-color: #1a1a1a;
+}
+
+.background {
+  background-color: #262626;
+}
+
+.bg1 {
+  background-color: #333333;
+}
+
+.bg2 {
+  background-color: #333333;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.bg2:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2) !important;
+}
+
+.outline-none {
+  outline: none;
+}
+
+.outline-none:focus {
+  outline: none;
+}
+
+.search-input::placeholder {
+  color: #888;
+}
+
+.u-pointer {
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.u-pointer:hover {
+  color: #fff !important;
+}
+
+.decoration-custom {
+  text-decoration-thickness: 3px;
+  text-underline-offset: 8px;
+  text-decoration-color: #fff;
+}
+
+/* Left sidebar */
+.weather-main-icon {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  filter: drop-shadow(0 10px 15px rgba(0, 0, 0, 0.5));
+}
+
+.temp-value {
+  font-size: 2.5rem;
+  line-height: 1.1;
+}
+
+.temp-unit {
+  font-size: 1.25rem;
+}
+
+.location-title {
+  font-size: 1rem;
+}
+
+.day-label {
+  font-size: 0.85rem;
+}
+
+.detail-icon {
+  font-size: 1rem;
+}
+
+.detail-text {
+  font-size: 0.85rem;
+}
+
+/* Humidity & Wind Speed stat card */
+.stat-value {
+  font-size: 0.75rem;
+}
+
+.stat-icon {
+  font-size: 0.85rem;
+}
+
+.stat-label {
+  font-size: 0.65rem;
+}
+
+/* Right column */
+.tab-title {
+  font-size: 1rem;
+}
+
+.day-card {
+  min-width: 72px;
+}
+
+.day-label {
+  font-size: 0.85rem;
+}
+
+.day-weather-icon {
+  width: 36px;
+  height: 36px;
+  object-fit: contain;
+}
+
+.day-temp {
+  font-size: 1rem;
+}
+
+.overview-title {
+  font-size: 1.25rem;
+}
+
+.overview-card {
+  min-height: 140px;
+}
+
+.overview-label {
+  font-size: 0.85rem;
+}
+
+.overview-number {
+  font-size: 2rem;
+}
+
+.overview-status {
+  font-size: 0.9rem;
+}
+
+.overview-card-icon {
+  width: 36px;
+  height: 36px;
+  object-fit: contain;
+}
+
+.precipitation-chart {
+  max-height: 100px;
+  object-fit: contain;
+}
+
+.sun-icon {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
+
+.sun-icon-flip {
+  transform: rotate(180deg);
+}
+
+.sun-label {
+  font-size: 0.75rem;
+  display: block;
+}
+
+.sun-time {
+  font-size: 0.95rem;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  height: 6px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: #262626;
+  border-radius: 10px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #555;
+  border-radius: 10px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #777;
+}
+
+/* Tablet and up */
+@media (min-width: 576px) {
+  .weather-main-icon {
+    width: 120px;
+    height: 120px;
+  }
+
+  .temp-value {
+    font-size: 3rem;
+  }
+
+  .temp-unit {
+    font-size: 1.5rem;
+  }
+
+  .location-title {
+    font-size: 1.15rem;
+  }
+
+  .day-label {
+    font-size: 0.95rem;
+  }
+
+  .detail-text {
+    font-size: 0.95rem;
+  }
+
+  .detail-icon {
+    font-size: 1.15rem;
+  }
+
+  .stat-value {
+    font-size: 0.85rem;
+  }
+
+  .stat-icon {
+    font-size: 0.95rem;
+  }
+
+  .stat-label {
+    font-size: 0.7rem;
+  }
+
+  .day-card {
+    min-width: 85px;
+  }
+
+  .day-weather-icon {
+    width: 44px;
+    height: 44px;
+  }
+
+  .day-temp {
+    font-size: 1.15rem;
+  }
+
+  .overview-title {
+    font-size: 1.5rem;
+  }
+
+  .overview-card {
+    min-height: 160px;
+  }
+
+  .overview-number {
+    font-size: 2.25rem;
+  }
+
+  .overview-card-icon {
+    width: 44px;
+    height: 44px;
+  }
+
+  .precipitation-chart {
+    max-height: 120px;
+  }
+
+  .sun-icon {
+    width: 46px;
+    height: 46px;
+  }
+}
+
+/* Desktop */
+@media (min-width: 768px) {
+  .weather-main-icon {
+    width: 140px;
+    height: 140px;
+  }
+
+  .temp-value {
+    font-size: 3.5rem;
+  }
+
+  .temp-unit {
+    font-size: 1.75rem;
+  }
+
+  .location-title {
+    font-size: 1.25rem;
+  }
+
+  .day-label {
+    font-size: 1rem;
+  }
+
+  .detail-text {
+    font-size: 1rem;
+  }
+
+  .stat-value {
+    font-size: 0.9rem;
+  }
+
+  .stat-label {
+    font-size: 0.75rem;
+  }
+
+  .tab-title {
+    font-size: 1.25rem;
+  }
+
+  .day-card {
+    min-width: 90px;
+  }
+
+  .day-weather-icon {
+    width: 50px;
+    height: 50px;
+  }
+
+  .day-temp {
+    font-size: 1.25rem;
+  }
+
+  .overview-card {
+    min-height: 180px;
+  }
+
+  .overview-label {
+    font-size: 1rem;
+  }
+
+  .overview-number {
+    font-size: 2.5rem;
+  }
+
+  .overview-status {
+    font-size: 1rem;
+  }
+
+  .overview-card-icon {
+    width: 50px;
+    height: 50px;
+  }
+
+  .precipitation-chart {
+    max-height: 130px;
+  }
+
+  .sun-icon {
+    width: 50px;
+    height: 50px;
+  }
+
+  .sun-time {
+    font-size: 1.1rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .weather-main-icon {
+    width: 150px;
+    height: 150px;
+  }
+
+  .temp-value {
+    font-size: 4rem;
+  }
+
+  .temp-unit {
+    font-size: 2rem;
+  }
+
+  .location-title {
+    font-size: 1.5rem;
+  }
+
+  .day-label {
+    font-size: 1.1rem;
+  }
+
+  .detail-text {
+    font-size: 1.1rem;
+  }
+
+  .detail-icon {
+    font-size: 1.25rem;
+  }
+
+  .stat-value {
+    font-size: 1rem;
+  }
+
+  .stat-icon {
+    font-size: 1.1rem;
+  }
+
+  .overview-title {
+    font-size: 1.75rem;
+  }
+
+  .overview-number {
+    font-size: 3rem;
+  }
+}
+
+/* Small mobile tweaks */
+@media (max-width: 375px) {
+  .location-row {
+    flex-direction: column;
+    align-items: flex-start !important;
+    gap: 0.25rem;
+  }
+
+  .stat-value {
+    font-size: 0.7rem;
+  }
+
+  .day-card {
+    min-width: 64px;
+  }
+}
